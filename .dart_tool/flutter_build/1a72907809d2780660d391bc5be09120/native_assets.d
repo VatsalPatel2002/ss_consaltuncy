@@ -1,0 +1,1 @@
+ D:\\project\\ss_consaltuncy\\.dart_tool\\flutter_build\\1a72907809d2780660d391bc5be09120\\native_assets.yaml: 
