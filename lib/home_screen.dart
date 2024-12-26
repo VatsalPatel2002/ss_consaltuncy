@@ -1,5 +1,6 @@
 // Import necessary Flutter packages
 import 'package:flutter/material.dart';
+import 'package:ss_consaltuncy/upload_page.dart';
 
 import 'details_page.dart';
 import 'new_agreement_page.dart';
@@ -16,12 +17,41 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(
-              'SHIVSHAKTI CONSULTANCY',
-              style: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
+            RichText(
+              textAlign: TextAlign.center,
+              text: TextSpan(
+                text: 'S', // First letter "S" in red
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.red, // Red color for first letter
+                ),
+                children: [
+                  TextSpan(
+                    text: 'HIVSHAKTI ', // Remaining part in white
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white, // White color for the rest
+                    ),
+                  ),
+                  TextSpan(
+                    text: 'C', // First letter "C" in red
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.red, // Red color for "C"
+                    ),
+                  ),
+                  TextSpan(
+                    text: 'ONSULTANCY', // Remaining part in white
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white, // White color for the rest
+                    ),
+                  ),
+                ],
               ),
             ),
             SizedBox(height: 50),
@@ -50,20 +80,29 @@ class HomeScreen extends StatelessWidget {
                     ],
                   ),
                 ),
-                Column(
-                  children: [
-                    Icon(
-                      Icons.cloud_upload,
-                      size: 50,
-                      color: Colors.white,
-                    ),
-                    SizedBox(height: 10),
-                    Text(
-                      'Upload',
-                      style: TextStyle(color: Colors.white),
-                    ),
-                  ],
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => UploadPage()),
+                    );
+                  },
+                  child: Column(
+                    children: [
+                      Icon(
+                        Icons.cloud_upload,
+                        size: 50,
+                        color: Colors.white,
+                      ),
+                      SizedBox(height: 10),
+                      Text(
+                        'Upload',
+                        style: TextStyle(color: Colors.white),
+                      ),
+                    ],
+                  ),
                 ),
+
               ],
             ),
           ],
