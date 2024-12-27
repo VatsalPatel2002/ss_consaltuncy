@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ss_consaltuncy/pdf_preview_page.dart';
+import 'package:ss_consultancy/pdf_preview_page.dart';
 
 import 'details_page.dart';
 import 'home_screen.dart';

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "719252577020",
+    "project_id": "ssconsultancy-31d04",
+    "storage_bucket": "ssconsultancy-31d04.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719252577020:android:870ac5425810a10c805579",
+        "android_client_info": {
+          "package_name": "com.example"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSBt9YxtLuIpTremMJ6FGFMUFNB48gRl0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719252577020:android:23483ac43eaade8c805579",
+        "android_client_info": {
+          "package_name": "com.example.ss_consultancy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSBt9YxtLuIpTremMJ6FGFMUFNB48gRl0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

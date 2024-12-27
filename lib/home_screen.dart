@@ -1,6 +1,6 @@
 // Import necessary Flutter packages
 import 'package:flutter/material.dart';
-import 'package:ss_consaltuncy/upload_page.dart';
+import 'package:ss_consultancy/upload_page.dart';
 
 import 'details_page.dart';
 import 'new_agreement_page.dart';

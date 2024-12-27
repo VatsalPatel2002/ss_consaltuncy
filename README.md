@@ -1,4 +1,4 @@
-# ss_consaltuncy
+# ss_consultancy
 
 A new Flutter project.
 

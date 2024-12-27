@@ -1,8 +1,7 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ss_consultancy">
     <application
-        android:label="ss_consaltuncy"
+        android:label="ss_consultancy"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

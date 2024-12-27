@@ -1,11 +1,11 @@
-#Thu Dec 26 22:41:49 IST 2024
-base.0=D\:\\ss_consaltuncy\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=D\:\\ss_consaltuncy\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
-base.2=D\:\\ss_consaltuncy\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.3=D\:\\ss_consaltuncy\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+#Fri Dec 27 23:47:28 IST 2024
+base.0=E\:\\Flutter_projects\\ss_consultancy\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=E\:\\Flutter_projects\\ss_consultancy\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=E\:\\Flutter_projects\\ss_consultancy\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.3=E\:\\Flutter_projects\\ss_consultancy\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
-path.2=0/classes.dex
+path.2=12/classes.dex
 path.3=1/classes.dex
 renamed.0=classes.dex
 renamed.1=classes2.dex
